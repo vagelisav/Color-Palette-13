@@ -1,0 +1,13 @@
+from colorthief import ColorThief
+
+color_thief = ColorThief('FILE')
+
+#color palette
+
+pal = color_thief.get_palette(color_count=5)
+
+#color_count = 5 ( 5 dominant colors of your pic ) 
+
+print pal 
+
+#print the 5 colors in RGB
